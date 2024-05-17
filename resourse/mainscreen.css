@@ -18,3 +18,29 @@ body {background-color: rgb(21, 20, 24);}
 }
 
 
+.mousepoint{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    cursor: url('./img/neko-anime-girl.gif'),auto;
+}
+
+
+.upimg{
+    height: 20;
+    
+}
+
+.left_img{
+    background: url("https://media.tenor.com/VGhhnabKfIUAAAAi/black-rock-shooter-brs.gif");
+}
+.right_img{
+    background: url("https://media.tenor.com/VGhhnabKfIUAAAAi/black-rock-shooter-brs.gif");
+}
+@font-face {
+font-family: 'GyeonggiTitleM';
+src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiTitleM.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
