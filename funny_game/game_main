@@ -1,0 +1,18 @@
+<head>
+    <script>
+        function movepage() {
+            var link = document.getElementById("myTextarea").value;
+            location.href=link;
+            location.replace(link);
+            window.open(link);
+        }
+    </script>
+    
+</head>
+
+
+<body>
+    <textarea id="myTextarea" rows="4" cols="50"></textarea>
+    <button onclick="javascript: movepage()">정답입력</button>
+</body>
+
