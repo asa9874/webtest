@@ -1,18 +1,13 @@
 <head>
-    <script>
-        function movepage() {
-            var link = document.getElementById("myTextarea").value;
-            location.href=link;
-            location.replace(link);
-            window.open(link);
-        }
-    </script>
+    
+    <link rel="stylesheet" href="./game.css">
+    <title>시작의 장</title>
+
     
 </head>
 
 
 <body>
-    <textarea id="myTextarea" rows="4" cols="50"></textarea>
-    <button onclick="javascript: movepage()">정답입력</button>
+
 </body>
 
