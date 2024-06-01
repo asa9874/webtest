@@ -1,0 +1,35 @@
+<html>
+<head>
+    <link rel="stylesheet" href="../../study_file.css">
+
+    <script>
+        var msg="안녕하세요"
+        function fun1(msg){
+            document.write(msg);
+        }    
+
+        var prifun=function(msg){
+            document.write(msg);
+        }
+
+        function sum(a,b){
+            return a+b;
+        }
+    </script>
+
+</head>
+
+
+
+
+
+<body>
+    <button onclick="fun1(msg)">눌러</button>
+    <button onclick="prifun(msg)">눌러2</button>
+    <button onclick="prifun(sum(4,5))">눌러3</button>
+</body>
+
+
+
+
+</html>
