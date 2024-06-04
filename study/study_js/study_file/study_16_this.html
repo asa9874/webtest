@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="../../study_file.css">
+
+
+<script>
+var a=100
+
+
+
+function fun(st) {
+    document.write(st+a+this+"<br>")
+}
+
+fun("전역");
+
+var obj={
+    foo:fun
+}
+obj.foo("메소드")
+
+var instance = new fun("생성자")
+
+
+
+
+
+</script>
