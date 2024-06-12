@@ -9,10 +9,24 @@
     
     const btn2=document.querySelector('.newbtn2')
     btn2.addEventListener('click',function(){alert("안녕하세요")})
-
-
-
 </script>
+
+
+
+<button class="newbtn3">버튼4</button>
+
+<script>
+    function hide(e){//e는 이벤트 객체다.
+        e.target.style.visibility='hidden';//e.target 대신 this를 사용할수도있다.
+        //this.style.visibility='hidden';
+    }
+
+    document.getElementsByClassName('.newbtn3').addEventListener('click',hide);
+</script>
+
+
+
+
 
 
 
